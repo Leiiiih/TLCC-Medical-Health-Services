@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&family=Lato&display=swap');
+*{
+    font-family: 'Alexandria';
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+   background: linear-gradient(45deg, rgb(2, 2, 99), white);
+}
+
+.head img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h4{
+    margin-left: 10px;
+}
+
+.nav{
+    background-color: rgb(31, 31, 207);
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0;
+}
+
+div.nav{
+  display: flex;  
+  margin-bottom: 50px;
+}
+
+.nav button{
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(52, 52, 119);
+}
+
+.nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1.block-title{
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+span.comp{
+color: red;
+}
+
+.emp-pic{
+     height: auto;
+     width: 80%;
+     padding: 20px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.section1{
+   width: 100%;
+   padding: 40px 0px 0px 0px;
+}
+
+span.TLCC{
+    color: red;
+    font-size: 30px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+span.TLC{
+    color:rgb(116, 182, 204);
+}
+
+.section1 p{
+    padding: 0px 30px 20px;
+   font-size: 20px;
+}
+
+.section1 .ps{
+    padding: 10px 0px 0px 0px;
+    background-color: #06418f40;
+    border: #06418f40 solid 2px;
+}
+
+.vis-miss{
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+.vis-miss span{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.office-hours{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.vis-miss .span-1{
+    color: rgb(0, 0, 255);
+    -webkit-text-stroke-color: rgb(61, 60, 60);
+    -webkit-text-stroke-width: 1px;
+}
+
+.vis-miss .span-2{
+    color: red;
+    -webkit-text-stroke-color: rgb(61, 60, 60);
+    -webkit-text-stroke-width: 1px;
+}
+
+
+.vis-miss p , ul{
+    font-size: 25px;
+    margin: 20px 0px 90px 0px ;
+}
+
+.vis-miss ul li {
+    list-style-type: circle;
+}
+
+.workers-title{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.workers-title span{
+    color: red;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.workers-block{
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.workers-block img{
+    width: 50%;
+}
+
+.workers-block .cabral , .joy , .rhyan, .canlas, .sarabia{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;  
+    align-items: center;
+}
+
+.workers-block .joy , .rhyan , .canlas, .sarabia{
+    margin-top: 70px;
+}
+.workers-block p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;   
+}
+
+.workers-block .cabral span{
+    font-style: italic;
+    font-size: 25px ;
+}
+
+.workers-block .text{
+    padding: 18px 0px 18px 0px;
+}
+
+.workers-block p.name{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+table.main-serv , table.main-serv2{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    background-color: #06418f40;
+    border: #06418f40 solid 2px;
+}
+
+.main-serv td , .main-serv2 td{
+    font-size: 30px;
+    font-weight: 1000;
+    padding:20px 0px 20px 0px ;
+}
+
+.seperation{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.seperation span{
+    color: red;
+}
+
+.section2{
+    text-align: center;
+    align-items: center;
+}
+
+.section2 span{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.section2 table{
+    width: 100%;
+    padding: 20px 0px 80px 0px;
+}
+
+.section2 table ul li{
+    padding: 7px 0px 0px 0px;
+}
+
+.section2 table td{
+   padding: auto;
+}
+
+.section2 .enzymes{
+    padding: 70px 0px 0px 0px;
+}
+
+.kahit-ano{
+    background-color: #06418f40;
+    border: #06418f40 solid 2px;
+}
+
+.kahit-ano2{
+    background-color: #06418f40;
+    border: #06418f40 solid 2px;
+    
+}
+
+.contacts{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contacts span{
+    font-weight: 600;
+    font-size: 30px;    
+}
+
+.contacts .span-1{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contacts .span-2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contacts .cont-info{
+    margin: 30px 0px 30px 0px;
+}
+
+.Location {
+   margin-bottom: 50px;
+}
+
+footer {
+    background: linear-gradient(to right,red, rgb(31, 31, 207), white);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.footer-content p {
+    margin: 0;
+}
+
+
+
+@media only screen and (max-width:768px){
+      td{
+        display: block;
+        padding: 20px 0px 0px 0px;
+      }
+}
+
+@media only screen and (min-width:768px) {
+        
+    .section1{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .emp-pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+
+    .section2 .table-2{
+        margin-left: 80px;
+    }
+
+     table.main-serv2{
+        width: 50%;
+        margin-left: 220px;
+        margin-right: auto;
+    }
+
+    .seperation{
+        margin-left: 50px;
+    }
+
+    .workers-block img{
+        width: 40%;
+    }
+
+    .workers-block .cabral , .joy , .rhyan, .canlas, .sarabia{
+        display:flex;
+    }
+    
+    .workers-block .text{
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .section1{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .emp-pic{
+        float: left;
+        width: 300%;
+    }
+
+    table.main-serv{
+       width: 70%;
+       margin-left: 200px;
+       text-align: center;
+    }
+
+    table.main-serv2{
+        width: 50%;
+        margin-left: 320px;
+    }
+
+    .workers-block img{
+        width: 30%;
+    }
+
+    .workers-block .text{
+        margin-right: 100px;
+    }
+}
+
+@media only screen and (min-width:1100px) {
+
+    .emp-pic{
+        width: 300%;
+    }
+}
+
+@media only screen and (min-width:1500px) {
+
+    .section1{
+        width: 100%;
+    }
+    .emp-pic{
+        width: 150%;
+    }
+    table.main-serv{
+        width: 70%;
+        margin-left: 300px;
+        text-align: center;
+     }
+     table.main-serv td{
+        padding: 20px 80px 20px 0px ;
+     }
+
+     .section2{
+        margin-right: 100px;
+     }
+
+     .workers-block img{
+        width: 20%;
+    }
+
+    .workers-block .text{
+        margin-right: 200px;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+
+    .emp-pic{
+        width: 200%;
+    }
+
+    .section1{
+        display: flex;
+        margin-left: 200px;
+    }
+    
+    .section1 .ps{
+        margin-right: 500px;
+        margin-left: 150px;
+    }
+    table.main-serv td{
+        padding: 20px 150px 20px 0px ;
+     }
+
+     table.main-serv{
+        width: 70%;
+        margin-left: 400px;
+        text-align: center;
+     }
+
+     table.main-serv2{
+        width: 50%;
+        margin-left: 550px;
+     }
+
+     .workers-block img{
+        width: 20%;
+     }
+
+     
+    .workers-block .text{
+        margin-right: 300px;
+    }
+}
